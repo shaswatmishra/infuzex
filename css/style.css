@@ -743,6 +743,32 @@ padding-left:0px;
 overflow-x: hidden;
 }
 
+  .owl-dots{
+text-align:center;
+}
+
+
+.owl-carousel button.owl-dot span{
+    position: relative;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: block;
+    background: #fff;
+    border: 2px solid #01e6f8;
+    margin: 0 5px;
+}
+
+.gtco-news .owl-carousel .active span{
+background: #01e6f8!important;
+transition: all 0.3s;
+}
+
+.gtco-news {
+margin-left:10px;
+}
+  
+
 }
 
 
