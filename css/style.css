@@ -709,6 +709,11 @@ font-size:17px;
 }
 
 @media (max-width: 600px) {
+  
+  .row{
+margin-left:-6px;
+margin-right:-6px;
+}
   .gtco-news .owl-carousel .owl-nav {
     display: block !important;
   }
