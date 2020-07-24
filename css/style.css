@@ -43,9 +43,11 @@ p {
   color: #666666;
   font-size: 18px;
 }
-
+html{
+  overflow-x: hidden;
+}
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   overflow-y: auto;
   font-family: "OpenSans-Regular";
 }
@@ -738,6 +740,7 @@ padding-right:0px;
 .container-fluid {
 padding-right:0px;
 padding-left:0px;
+overflow-x: hidden;
 }
 
 }
@@ -856,4 +859,10 @@ padding-left:0px;
   #gtco-footer .col-lg-6 {
     margin-bottom: 50px;
   }
+}
+/*******************************************form*****************************************************/
+.form{
+  border-radius: 30px;
+  text-align: center;
+
 }
